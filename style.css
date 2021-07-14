@@ -1,0 +1,270 @@
+/* ******Common Styles****** */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+/* ***Font-Family*** */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* ***** HEADER-CONTAINER Style ***** */
+.header-container {
+  background-color: rgb(15, 15, 151);
+}
+.web-title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.title {
+  color: #ffffff;
+  font-size: 85.12px;
+  font-weight: 700;
+  padding-left: 219.45px;
+  padding-top: 230.09px;
+  padding-bottom: 81.13px;
+  padding-right: 119.7px;
+  transition: transform 3s ease-in-out 0.1s;
+}
+.title:hover {
+  transform: scale(1.08);
+}
+.main-link {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: flex-end;
+  align-items: center;
+  margin-left: 207.48px;
+  background-color: #e02c6d;
+  width: 223.44px;
+  height: 58.52px;
+  transition: background-color 1s ease;
+}
+.main-link:hover {
+  background-color: red;
+}
+.live-link {
+  font-size: 21.28px;
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 5px;
+}
+.main-banner img {
+  width: 739.48px;
+  height: 582.54px;
+  margin-top: 203.49px;
+  margin-bottom: 114.38px;
+  margin-right: 187.51px;
+  transition: transform 5s ease 0.1s;
+}
+.main-banner img:hover {
+  transform: rotate(-5deg);
+}
+
+/* ***** MAIN-SECTION ***** */
+.profiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 39.9px;
+  grid-column-gap: 35.91px;
+  margin-top: 93.1px;
+  margin-left: 239.4px;
+  margin-right: 273px;
+}
+.profile {
+  width: 438.9px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  border-radius: 10px;
+}
+.profile:hover {
+  background-color: gainsboro;
+  border: 2px solid black;
+}
+.profile-image {
+  padding: 19.95px;
+}
+.profile-image img {
+  width: 399px;
+  height: 340.48px;
+  border-radius: 8px;
+}
+.profile-image .player {
+  transition: transform 4s ease 0.1s;
+}
+.profile-image:hover .player {
+  transform: scale(1.1);
+}
+.profile-description {
+  padding: 0px 19.95px 43.89px 19.95px;
+}
+.player-name {
+  font-weight: 700;
+  line-height: 48px;
+  font-size: 37.24px;
+  color: #18191f;
+  margin-bottom: 10px;
+}
+.player-description {
+  font-size: 21.28px;
+  line-height: 26px;
+  text-align: justify;
+  color: #6c6c6c;
+}
+
+/* ***** Article ***** */
+article {
+  display: flex;
+}
+.highlight {
+  padding-top: 240px;
+  padding-left: 259.35px;
+  padding-right: 74.48px;
+}
+.highlight-title {
+  font-size: 63.84px;
+  font-weight: 700px;
+  color: #0a0826;
+}
+.highlight-text {
+  font-size: 21.28px;
+  color: #6c6c6c;
+}
+.highlight-link {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: flex-end;
+  align-items: center;
+  background-color: #e02c6d;
+  width: 223.44px;
+  height: 58.52px;
+  margin-top: 31.92px;
+  transition: background-color 1s ease;
+}
+.highlight-link:hover {
+  background-color: red;
+}
+.highlight-link .watch-link {
+  font-size: 21.28px;
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 5px;
+}
+.highlight-image img {
+  width: 754.11px;
+  height: 567.91px;
+  padding-right: 210.14px;
+  padding-top: 118.12px;
+  padding-bottom: 110.14px;
+}
+
+/* *****Advertisement***** */
+.advertisement {
+}
+.advertisement-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 1600px;
+  border: 3px solid rgb(70, 71, 77);
+  border-radius: 10px;
+  margin-left: 160px;
+  margin-bottom: 80px;
+}
+.advertisement-1:hover {
+  background-color: rgba(68, 68, 68, 0.973);
+  color: white;
+}
+.ad-images img {
+  padding: 7px;
+  padding-bottom: 3px;
+  border-radius: 15px;
+  width: 500px;
+}
+.add-des {
+  padding: 20px 30px;
+}
+.add-title {
+  font-weight: 700px;
+  font-size: 50px;
+  color: #e02c6d;
+  padding: 15px 0px 30px 0px;
+}
+.add-paragraph {
+  font-weight: 600;
+}
+/* ***** Footer ***** */
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 85.12px;
+}
+.logo-image img {
+  width: 643.54px;
+  height: 145.3px;
+}
+.icons img {
+  height: 42.56px;
+  width: 42.56px;
+  padding: 20px 7px;
+}
+.icons img:hover {
+  transform: scale(1.2);
+}
+.text {
+  font-size: 24px;
+}
+.text:hover {
+  color: red;
+}
+.copyright img {
+  height: 24px;
+  width: 24px;
+}
+/* **** The End ***** */
+
+/* ***** Media Queries ***** */
+/* *-*-*-Mobile Device-*-*-* */
+@media only screen and (max-width: 688px) {
+  .web-title {
+    dislay: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-container {
+    width: 100%;
+  }
+  .title {
+    width: 100%;
+    padding-left: 10px;
+    font-size: 40px;
+  }
+  .main-link {
+    margin-left: 10px;
+  }
+  .main-banner img {
+    width: 100%;
+    padding-left: 10px;
+    height: initial;
+  }
+  .main-section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .profiles {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .profile {
+    padding-left: 10px;
+    margin-left: 10px;
+  }
+  .main-link {
+  }
+}
